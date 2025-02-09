@@ -1,13 +1,12 @@
 from selenium import webdriver
+from browser_set_up import *
 
 def collecting_routine():
-    driver = webdriver.Chrome()
-
-    driver.get("https://nn.hh.ru/vacancy/116171255?query=Python+developer&hhtmFrom=vacancy_search_list")
-
-    title = driver.title
-
-    driver.implicitly_wait(0.5)
-
-    print(title)
+    # Trying to open the browser driver
+    driver = try_get_driver()
+    
+    if driver == None:
+        print(f"All browsers are unavailable.") # TODO: add logging
+        return
+    
     driver.quit()
