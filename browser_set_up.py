@@ -1,39 +1,40 @@
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
+import logging
 
 def check_browser(browser_name):
     try:
         if browser_name.lower() == 'safari':
             driver = webdriver.Safari()
-            print(f"Available browser: {browser_name}") # TODO: add logging
         elif browser_name.lower() == 'chrome':
-            driver = webdriver.Chrome()
-            print(f"Available browser: {browser_name}") # TODO: add logging
+            service = webdriver.ChromeService()
+            driver = webdriver.Chrome(service = service)
         elif browser_name.lower() == 'edge':
             driver = webdriver.Edge()
-            print(f"Available browser: {browser_name}") # TODO: add logging
         elif browser_name.lower() == 'ie':
             driver = webdriver.Ie()
-            print(f"Available browser: {browser_name}") # TODO: add logging
         elif browser_name.lower() == 'firefox':
             driver = webdriver.Firefox()
-            print(f"Available browser: {browser_name}") # TODO: add logging
         else:
-            print(f"Unsupported browser: {browser_name}") # TODO: add logging
             return False, None
         
         return True, driver
     except WebDriverException as e:
-        print(f"{browser_name.capitalize()} is not available: {e}")
+        logging.error(f"{browser_name.capitalize()} is not available.")
         return False, None
 
 def try_get_driver():
-    browsers_to_check = ['safari', 'chrome', 'edge', 'ie', 'firefox']
+    browsers_to_check = ['safari', 'sunrise', 'chrome', 'edge', 'ie', 'firefox']
     
     for browser in browsers_to_check:
+        logging.info(f"Checking the {browser} browser...")
         is_available, driver = check_browser(browser)
+        
         if is_available:
+            logging.info(f"Available browser: {browser.capitalize()}")
             break
+        else:
+            logging.warning(f"Unsupported browser: {browser.capitalize()}")
 
     return driver
         

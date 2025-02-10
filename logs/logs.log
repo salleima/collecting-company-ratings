@@ -1,0 +1,9 @@
+2025-02-10 22:17:58,156 [INFO] Launching the "Collecting company ratings" program.
+2025-02-10 22:17:58,156 [INFO] Checking the safari browser...
+2025-02-10 22:17:58,337 [ERROR] Safari is not available.
+2025-02-10 22:17:58,337 [WARNING] Unsupported browser: Safari
+2025-02-10 22:17:58,337 [INFO] Checking the sunrise browser...
+2025-02-10 22:17:58,337 [WARNING] Unsupported browser: Sunrise
+2025-02-10 22:17:58,337 [INFO] Checking the chrome browser...
+2025-02-10 22:17:59,973 [INFO] Available browser: Chrome
+2025-02-10 22:18:07,177 [INFO] Completion the "Collecting company ratings" program.
