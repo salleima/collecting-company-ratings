@@ -1,9 +1,29 @@
-2025-02-10 22:17:58,156 [INFO] Launching the "Collecting company ratings" program.
-2025-02-10 22:17:58,156 [INFO] Checking the safari browser...
-2025-02-10 22:17:58,337 [ERROR] Safari is not available.
-2025-02-10 22:17:58,337 [WARNING] Unsupported browser: Safari
-2025-02-10 22:17:58,337 [INFO] Checking the sunrise browser...
-2025-02-10 22:17:58,337 [WARNING] Unsupported browser: Sunrise
-2025-02-10 22:17:58,337 [INFO] Checking the chrome browser...
-2025-02-10 22:17:59,973 [INFO] Available browser: Chrome
-2025-02-10 22:18:07,177 [INFO] Completion the "Collecting company ratings" program.
+2025-02-15 21:08:50,276 [INFO] Launching the "Collecting company ratings" program.
+2025-02-15 21:08:50,276 [INFO] Checking the safari browser...
+2025-02-15 21:08:50,410 [ERROR] Safari is not available.
+2025-02-15 21:08:50,410 [WARNING] Unsupported browser: Safari
+2025-02-15 21:08:50,410 [INFO] Checking the sunrise browser...
+2025-02-15 21:08:50,410 [WARNING] Unsupported browser: Sunrise
+2025-02-15 21:08:50,410 [INFO] Checking the chrome browser...
+2025-02-15 21:08:51,773 [INFO] Available browser: Chrome
+2025-02-15 21:08:54,797 [INFO] The company's title "YADRO" was received correctly.
+2025-02-15 21:08:54,816 [INFO] The company's rating "4,2" was received correctly.
+2025-02-15 21:08:55,852 [INFO] The company's title "Цитадель" was received correctly.
+2025-02-15 21:08:55,867 [INFO] The company's rating "4,6" was received correctly.
+2025-02-15 21:08:56,751 [INFO] The company's title "IBS" was received correctly.
+2025-02-15 21:08:56,762 [INFO] The company's rating "4,1" was received correctly.
+2025-02-15 21:08:57,579 [INFO] The company's title "Провенто, ГК" was received correctly.
+2025-02-15 21:08:57,608 [INFO] The company's rating "4,2" was received correctly.
+2025-02-15 21:08:58,574 [INFO] The company's title "Тензор" was received correctly.
+2025-02-15 21:08:58,584 [INFO] The company's rating "4,0" was received correctly.
+2025-02-15 21:08:59,359 [INFO] The company's title "НОРСИ-ТРАНС" was received correctly.
+2025-02-15 21:08:59,370 [INFO] The company's rating "4,7" was received correctly.
+2025-02-15 21:09:00,104 [INFO] The company's title "Лейкехман Юрий Михайлович" was received correctly.
+2025-02-15 21:09:01,154 [WARNING] The company's rating is not on the page.
+2025-02-15 21:09:02,033 [INFO] The company's title "InfiNet Wireless" was received correctly.
+2025-02-15 21:09:02,056 [INFO] The company's rating "4,6" was received correctly.
+2025-02-15 21:09:02,962 [INFO] The company's title "СимбирСофт" was received correctly.
+2025-02-15 21:09:02,995 [INFO] The company's rating "4,2" was received correctly.
+2025-02-15 21:09:03,777 [INFO] The company's title "Маркет Групп" was received correctly.
+2025-02-15 21:09:03,795 [INFO] The company's rating "4,9" was received correctly.
+2025-02-15 21:09:05,903 [INFO] Completion the "Collecting company ratings" program.

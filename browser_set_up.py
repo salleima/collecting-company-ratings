@@ -7,8 +7,12 @@ def check_browser(browser_name):
         if browser_name.lower() == 'safari':
             driver = webdriver.Safari()
         elif browser_name.lower() == 'chrome':
+            options = webdriver.ChromeOptions()
+            options.add_argument('--headless=new')
+            options.add_experimental_option('excludeSwitches', ['enable-logging'])
             service = webdriver.ChromeService()
-            driver = webdriver.Chrome(service = service)
+            driver = webdriver.Chrome(options = options, service = service)
+            driver.maximize_window()
         elif browser_name.lower() == 'edge':
             driver = webdriver.Edge()
         elif browser_name.lower() == 'ie':
